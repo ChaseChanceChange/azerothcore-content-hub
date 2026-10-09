@@ -1,0 +1,26 @@
+# Large / binary content – clone upstream instead of committing
+coa/
+later-expansions/legion/
+later-expansions/shadowlands/
+later-expansions/dragonflight/
+
+# Build / temp
+*.o
+*.a
+*.so
+*.exe
+build/
+bin/
+obj/
+CMakeCache.txt
+CMakeFiles/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
